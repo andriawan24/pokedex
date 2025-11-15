@@ -7,7 +7,7 @@ import (
 
 func explore(cfg *config) error {
 	if cfg.args == nil {
-		return errors.New("Input is empty")
+		return errors.New("location area is empty")
 	}
 
 	locationArea := *cfg.args
