@@ -187,15 +187,3 @@ This project is open source and available for educational purposes.
 
 - [PokeAPI](https://pokeapi.co/) for providing the Pokemon data API
 - Built as a learning project for Go programming and CLI development
-```
-
-This README includes:
-- Project overview and features
-- Installation instructions
-- Usage guide with examples
-- Command reference
-- Technical details (catching mechanics, caching)
-- Project structure
-- Development notes
-
-Copy this into a `README.md` file in your project root. If you want changes or additions, say what to update.
