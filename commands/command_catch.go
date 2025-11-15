@@ -1,12 +1,17 @@
 package commands
 
 import (
+	"errors"
 	"fmt"
 	"math/rand"
 	"strings"
 )
 
 func catch(cfg *config) error {
+	if cfg.args == nil {
+		return errors.New("pokemon name is empty")
+	}
+
 	name := strings.ToLower(*cfg.args)
 
 	if _, ok := cfg.pokedex[name]; ok {
